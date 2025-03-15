@@ -17,13 +17,13 @@ CUSTOM_DOMAIN = "exmaple.com"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.libcuda.so", custom_domain = true },
-#   { pattern = "quay.libcuda.so", custom_domain = true },
-#   { pattern = "gcr.libcuda.so", custom_domain = true },
-#   { pattern = "k8s-gcr.libcuda.so", custom_domain = true },
-#   { pattern = "k8s.libcuda.so", custom_domain = true },
-#   { pattern = "ghcr.libcuda.so", custom_domain = true },
-#   { pattern = "cloudsmith.libcuda.so", custom_domain = true },
+#   { pattern = "docker.wszy.online", custom_domain = true },
+#   { pattern = "quay.wszy.online", custom_domain = true },
+#   { pattern = "gcr.wszy.online", custom_domain = true },
+#   { pattern = "k8s-gcr.wszy.online", custom_domain = true },
+#   { pattern = "k8s.wszy.online", custom_domain = true },
+#   { pattern = "ghcr.wszy.online", custom_domain = true },
+#   { pattern = "cloudsmith.wszy.online", custom_domain = true },
 # ]
 
 [env.production.vars]
